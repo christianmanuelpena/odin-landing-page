@@ -99,7 +99,7 @@ main{
 .hero-button {
      background-color: #3882f6;
      color: white;
-     padding: 10px 30px;
+     padding: 10px 40px;
      border-radius: 8px;
      border: none;
      margin-top: 10px;
@@ -202,12 +202,32 @@ main{
      font-weight: 600;
 }
 
-.blue-container button {
+.blue-container p {
+     color: #e5e7eb;
+}
+
+.cta-button {
      background-color: #3882f6;
      border: 2px solid white;
-     padding: 10px 25px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 40px;
+     padding-right: 40px;
      border-radius: 8px;
      color: white;
      font-size: 18px;
      font-weight: 600;
+     line-height: 0px;
+}
+
+/* FOOTER SECTION */
+
+.footer-container {
+     background-color: #1f2937;
+     padding: 40px;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
 }
